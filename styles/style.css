@@ -88,20 +88,17 @@ ol {
 
 /* Стилизация текстового поля (НАЧАЛО) */
 
-.search-form__textfield-design {
+.search-form__textfield {
   min-width: 225px;
   border: 1px solid #fff;
   border-right: none;
   border-left: none;
-  background-color: transparent;
-}
-
-.search-form__textfield {
   padding: 2.5px 0;
   color: #fff;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   line-height: 100%;
+  background-color: transparent;
   cursor: text;
   appearance: none;
 }
@@ -166,9 +163,9 @@ ol {
 /* Стилизация чекбоксов (КОНЕЦ) */
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: #fff;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -205,7 +202,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
@@ -223,7 +220,6 @@ ol {
   height: 298px;
   margin-top: 26px;
   padding: 0 3px 0 2px;
-  overflow-x: hidden;
   overflow-y: auto;
 }
 
@@ -257,7 +253,7 @@ ol {
 }
 
 .content__card-link_current {
-
+  background-color: #545050;
 }
 
 .content__video-card {
@@ -273,7 +269,7 @@ ol {
 
 .content__video-card-title {
   overflow: hidden;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
