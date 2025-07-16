@@ -1,1 +1,0 @@
-https://github.com/Sabikko/posmotri-v-okno-fd
